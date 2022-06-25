@@ -1,4 +1,4 @@
-# Pygame starter code for sosp22
+# Pygame finished code for sosp22
 
 Workshop at: <https://sosp22.com/pygame>
 
