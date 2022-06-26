@@ -11,7 +11,7 @@ speed = [0, 0]
 
 class MainCharacter(pygame.sprite.Sprite):
     def __init__(self):
-        pygame.sprite.Sprite.__init__(self) 
+        super().__init__()
         self.image = pygame.image.load("./cat.svg")
         self.image = pygame.transform.scale(self.image, (50, 50))
 
@@ -31,7 +31,7 @@ class MainCharacter(pygame.sprite.Sprite):
 
 class Corona(pygame.sprite.Sprite):
     def __init__(self):
-        pygame.sprite.Sprite.__init__(self)
+        super().__init__()
         self.image = pygame.image.load("./germ.svg")
         self.image = pygame.transform.scale(self.image, (20, 20))
 
